@@ -1,0 +1,111 @@
+
+
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+
+/* Example styling for the tab items */
+.tab-item {
+  padding: 15px 30px; /* Increased padding for larger buttons */
+  margin: 0 15px; /* Adjusted margin */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Increased border radius for rounded corners */
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+  background-color: #a8a8a8;
+}
+
+.tab-item.active {
+  background-color: #e0e0e0;
+}
+
+
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border: 3px solid;
+}
+
+.card-image {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.card-group {
+  font-size: 12px;
+  color: #888;
+}
+.add-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plus-icon {
+  font-size: 250px;
+  margin-bottom: 5px; /* Adjust as needed */
+}
+
+
+.refresh-icon {
+  position: fixed; /* Position the icon relative to the viewport */
+  top: 20px; /* Adjust the distance from the top as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the icon */
+  z-index: 1000; /* Ensure the icon is above other elements */
+  /* Add any additional styles for the icon */
+}
+
+.refresh-icon svg {
+  width: 30px; /* Set the width of the icon */
+  height: 30px; /* Set the height of the icon */
+  fill: #333; /* Set the fill color of the icon */
+}
+
+
